@@ -1,0 +1,25 @@
+# train
+buffer_size: 500
+learning_rate: 0.001
+batch_size: 64
+epochs: 10
+
+# path
+model_dir: models/all_cnn3
+
+# hooks
+checkpoint_steps: 50
+summary_steps: 50
+
+# network
+OUTPUT_NAMES: [AllCNN/Softmax]
+INPUTS:
+ - name: input_layer_1
+   size: [1, 28, 28]
+
+# freeze
+FROZEN_FPATH: frozen_models/all_cnn1.pb
+
+# uff
+ENGINE_FPATH: engine/all_cnn1.plan
+MAX_BATCH_SIZE: 1
