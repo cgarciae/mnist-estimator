@@ -1,0 +1,6 @@
+plotly
+dm-sonnet
+git+https://github.com/cgarciae/tfinterface@develop
+git+https://github.com/cgarciae/dataget@python3
+dicto
+idx2numpy

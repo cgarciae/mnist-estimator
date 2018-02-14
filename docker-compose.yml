@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  jupyter:
+    build: .
+    volumes:
+      - ./:/code
+    working_dir: /code
+    ports:
+      - "8888:8888"
+    command: jupyter lab --allow-root --NotebookApp.iopub_data_rate_limit=1.0e10 .
