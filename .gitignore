@@ -1,6 +1,9 @@
 models/
 engine/
 frozen_models/
+.dataget/
+.vscode/
+.Trash-0/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
