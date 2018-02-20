@@ -14,7 +14,7 @@ RUN jupyter labextension install @jupyterlab/plotly-extension
 RUN pip install plotly
 RUN pip install dm-sonnet
 
-RUN pip install git+https://github.com/cgarciae/tfinterface@develop
-RUN pip install git+https://github.com/cgarciae/dataget@python3
+RUN pip install tfinterface
+RUN pip install dataget
 RUN pip install dicto
 RUN pip install idx2numpy
