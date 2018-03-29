@@ -18,8 +18,8 @@ INPUTS:
    size: [1, 28, 28]
 
 # freeze
-FROZEN_FPATH: frozen_models/all_cnn1.pb
+FROZEN_FPATH: all_cnn3.pb
 
 # uff
-ENGINE_FPATH: engine/all_cnn1.plan
+ENGINE_FPATH: all_cnn1.plan
 MAX_BATCH_SIZE: 1
